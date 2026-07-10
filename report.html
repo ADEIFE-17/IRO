@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Report Issue | IRO</title>
+
+    <link rel="icon" href="assets/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <img src="assets/logo.svg" alt="IRO Logo" />
+
+          <span>IRO</span>
+        </a>
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Toggle Navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <nav id="navMenu" class="nav-menu">
+          <ul>
+            <li>
+              <a href="index.html"> Home </a>
+            </li>
+
+            <li>
+              <a href="report.html" class="active"> Report Issue </a>
+            </li>
+
+            <li>
+              <a href="track.html"> Track Report </a>
+            </li>
+
+            <li>
+              <a href="about.html"> About </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="badge"> Issues Reporting Outlet </span>
+
+          <h1>Report an Issue</h1>
+
+          <p>
+            Help improve AAUA and the surrounding communities by reporting
+            issues affecting students, residents and public facilities. Your
+            report will be assigned a unique Complaint ID which can later be
+            used to monitor its progress.
+          </p>
+        </div>
+
+        <div>
+          <img src="assets/report.svg" alt="Report Issue Illustration" />
+        </div>
+      </div>
+    </section>
+
+    <section class="form-page">
+      <div class="container">
+        <div class="grid-2">
+          <aside class="card fade-up">
+            <h3>Before You Submit</h3>
+
+            <p>
+              Please provide accurate information to help the appropriate
+              authority understand and resolve the issue more effectively.
+            </p>
+
+            <br />
+
+            <h3>Reporting Tips</h3>
+
+            <ul>
+              <li>• State the exact location.</li>
+
+              <li>• Describe the issue clearly.</li>
+
+              <li>• Upload evidence if available.</li>
+
+              <li>• Avoid offensive language.</li>
+            </ul>
+
+            <br />
+
+            <h3>Privacy Notice</h3>
+
+            <p>
+              Your information will only be used for processing complaints. You
+              may also choose to submit your report anonymously.
+            </p>
+
+            <br />
+
+            <h3>What Happens Next?</h3>
+
+            <p>
+              After submission, a Complaint ID will be generated. Keep this ID
+              safe because it will be required when tracking your report.
+            </p>
+          </aside>
+
+          <div class="form-wrapper fade-up">
+            <h2 class="mb-3">Issue Reporting Form</h2>
+
+            <form id="reportForm">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="fullname"> Full Name </label>
+
+                  <input
+                    type="text"
+                    id="fullname"
+                    name="fullname"
+                    placeholder="Enter your full name"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email"> Email Address </label>
+
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@email.com"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="phone"> Phone Number </label>
+
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="080XXXXXXXX"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="userType"> I am a </label>
+
+                  <select id="userType" name="userType">
+                    <option value="">Select Category</option>
+
+                    <option>AAUA Student</option>
+
+                    <option>Community Indigene</option>
+
+                    <option>Student & Community Member</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="category"> Issue Category </label>
+
+                  <select id="category" name="category" required>
+                    <option value="">Select Issue Category</option>
+
+                    <option>Security</option>
+
+                    <option>Road Damage</option>
+
+                    <option>Water Supply</option>
+
+                    <option>Electricity</option>
+
+                    <option>Environmental Sanitation</option>
+
+                    <option>Student Misconduct</option>
+
+                    <option>Noise Disturbance</option>
+
+                    <option>Others</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="community"> Community </label>
+
+                  <select id="community" name="community" required>
+                    <option value="">Select Community</option>
+
+                    <option>Akungba</option>
+
+                    <option>Iwaro</option>
+
+                    <option>Etioro</option>
+
+                    <option>Ayegunle</option>
+
+                    <option>Others</option>
+                  </select>
+                </div>
+
+                <div class="form-group full">
+                  <label for="location"> Exact Location </label>
+
+                  <input
+                    type="text"
+                    id="location"
+                    name="location"
+                    placeholder="Example: Opposite AAUA Main Gate"
+                    required
+                  />
+                </div>
+
+                <div class="form-group full">
+                  <label for="title"> Issue Title </label>
+
+                  <input
+                    type="text"
+                    id="title"
+                    name="title"
+                    placeholder="Short summary of the issue"
+                    required
+                  />
+                </div>
+
+                <div class="form-group full">
+                  <label for="description"> Issue Description </label>
+
+                  <textarea
+                    id="description"
+                    name="description"
+                    placeholder="Provide a detailed description of the issue..."
+                    required
+                  ></textarea>
+
+                  <small class="form-note">
+                    Include useful details that can help resolve the issue
+                    quickly.
+                  </small>
+                </div>
+
+                <div class="form-group full">
+                  <label for="evidence"> Upload Evidence (Optional) </label>
+
+                  <input
+                    type="file"
+                    id="evidence"
+                    name="evidence"
+                    accept="image/*"
+                  />
+
+                  <small class="form-note">
+                    Accepted formats: JPG, PNG and JPEG.
+                  </small>
+                </div>
+              </div>
+
+              <div class="checkbox">
+                <input type="checkbox" id="anonymous" />
+
+                <label for="anonymous"> Submit this report anonymously </label>
+              </div>
+
+              <div class="hero-buttons mt-3">
+                <button type="submit" class="btn primary">Submit Report</button>
+
+                <button type="reset" class="btn secondary">Clear Form</button>
+              </div>
+
+              <div class="alert" id="successMessage">
+                <strong> Report Submitted Successfully </strong>
+
+                <br /><br />
+
+                Complaint ID:
+
+                <strong id="generatedId"> IRO-00000000-0000 </strong>
+
+                <br /><br />
+
+                Please save this Complaint ID. You will need it to track the
+                status of your report.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-box">
+        <div>
+          <h2>Need Assistance?</h2>
+
+          <p>
+            If you experience any difficulty while submitting a report, please
+            contact the IRO support desk.
+          </p>
+        </div>
+
+        <a href="track.html" class="btn primary"> Track Existing Report </a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer">
+        <div>
+          <h3>IRO</h3>
+
+          <p>Issues Reporting Outlet</p>
+        </div>
+
+        <div>
+          <p>ADENIYI OLAMIDE ADEIFE</p>
+
+          <p>220404057</p>
+
+          <p>Department of Computer Science</p>
+
+          <p>Adekunle Ajasin University, Akungba-Akoko</p>
+        </div>
+
+        <div>
+          <p>Weekly Development 3</p>
+
+          <p>Version 1.0</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
