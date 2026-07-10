@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Track Report | IRO</title>
+
+    <link rel="icon" href="assets/favicon.png" />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <img src="assets/logo.svg" alt="IRO Logo" />
+
+          <span>IRO</span>
+        </a>
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Toggle Navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <nav id="navMenu" class="nav-menu">
+          <ul>
+            <li>
+              <a href="index.html"> Home </a>
+            </li>
+
+            <li>
+              <a href="report.html"> Report Issue </a>
+            </li>
+
+            <li>
+              <a href="track.html" class="active"> Track Report </a>
+            </li>
+
+            <li>
+              <a href="about.html"> About </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="badge"> Complaint Tracking </span>
+
+          <h1>Track Your Submitted Report</h1>
+
+          <p>
+            Enter the Complaint ID that was generated after submitting your
+            report. You will be able to view its details, current status and
+            progress timeline.
+          </p>
+        </div>
+
+        <div>
+          <img src="assets/track.svg" alt="Track Report" />
+        </div>
+      </div>
+    </section>
+
+    <section class="form-page">
+      <div class="container">
+        <div class="card">
+          <h2 class="mb-3">Find Your Report</h2>
+
+          <form id="trackingForm">
+            <div class="search-box">
+              <input
+                type="text"
+                id="trackingId"
+                placeholder="Example: IRO-20260709-4837"
+                autocomplete="off"
+                required
+              />
+
+              <button type="submit" class="btn primary">Search</button>
+            </div>
+          </form>
+
+          <div id="trackingResult" style="display: none">
+            <div class="status-card">
+              <div class="status-header">
+                <div>
+                  <h3 id="displayTitle">Issue Title</h3>
+
+                  <p id="displayLocation">Location</p>
+                </div>
+
+                <span class="status-badge pending" id="displayStatus">
+                  Pending
+                </span>
+              </div>
+
+              <div class="grid-2">
+                <div>
+                  <p>
+                    <strong> Complaint ID: </strong>
+
+                    <span id="displayId"></span>
+                  </p>
+
+                  <br />
+
+                  <p>
+                    <strong> Category: </strong>
+
+                    <span id="displayCategory"></span>
+                  </p>
+
+                  <br />
+
+                  <p>
+                    <strong> Community: </strong>
+
+                    <span id="displayCommunity"></span>
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    <strong> Submitted By: </strong>
+
+                    <span id="displayName"></span>
+                  </p>
+
+                  <br />
+
+                  <p>
+                    <strong> Date Submitted: </strong>
+
+                    <span id="displayDate"></span>
+                  </p>
+
+                  <br />
+
+                  <p>
+                    <strong> Current Stage: </strong>
+
+                    <span id="displayStage"> Awaiting Review </span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="mt-4">
+                <h3>Description</h3>
+
+                <p id="displayDescription"></p>
+              </div>
+
+              <div class="timeline mt-4">
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+
+                  <div class="timeline-content">
+                    <h4>Report Submitted</h4>
+
+                    <p>
+                      Your complaint has been successfully submitted and
+                      recorded in the IRO reporting system.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+
+                  <div class="timeline-content">
+                    <h4 id="timelineTitle">Awaiting Review</h4>
+
+                    <p id="timelineDescription">
+                      Your report is waiting to be reviewed by the appropriate
+                      authority.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="notFound" class="alert">
+            <strong> No report was found. </strong>
+
+            <br /><br />
+
+            Please confirm that the Complaint ID is correct, then try again.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-box">
+        <div>
+          <h2>Can't Find Your Report?</h2>
+
+          <p>
+            If your Complaint ID cannot be located, you may submit a new report
+            or contact the IRO support desk for assistance.
+          </p>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="report.html" class="btn primary"> Submit New Report </a>
+
+          <a href="about.html" class="btn secondary"> Learn More </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer">
+        <div>
+          <h3>IRO</h3>
+
+          <p>Issues Reporting Outlet</p>
+        </div>
+
+        <div>
+          <p>ADENIYI OLAMIDE ADEIFE</p>
+
+          <p>220404057</p>
+
+          <p>Department of Computer Science</p>
+
+          <p>Adekunle Ajasin University, Akungba-Akoko</p>
+        </div>
+
+        <div>
+          <p>Weekly Development 3</p>
+
+          <p>Version 1.0</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
