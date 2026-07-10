@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420">
+
+    <!-- Background -->
+    <rect width="600" height="420" fill="#F7F5EF"></rect>
+
+    <!-- Search Card -->
+    <rect x="95" y="55" width="410" height="310" rx="18" fill="#FFFFFF" stroke="#DDD6C8" stroke-width="2"></rect>
+
+    <!-- Search Bar -->
+    <rect x="130" y="90" width="270" height="40" rx="8" fill="#ECE7DB"></rect>
+
+    <!-- Search Button -->
+    <rect x="415" y="90" width="55" height="40" rx="8" fill="#556B2F"></rect>
+
+    <!-- Magnifying Glass -->
+    <circle cx="440" cy="109" r="8" fill="none" stroke="#FFFFFF" stroke-width="2"></circle>
+
+    <line x1="446" y1="115" x2="454" y2="123" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></line>
+
+    <!-- Status Badge -->
+    <rect x="130" y="160" width="105" height="30" rx="15" fill="#E4F5DF"></rect>
+
+    <text x="182" y="180" text-anchor="middle" font-size="13" font-family="Arial" fill="#2C6A1E">
+        RESOLVED
+    </text>
+
+    <!-- Information Lines -->
+    <rect x="130" y="215" width="300" height="12" rx="6" fill="#D8D8D8"></rect>
+
+    <rect x="130" y="240" width="260" height="12" rx="6" fill="#D8D8D8"></rect>
+
+    <rect x="130" y="265" width="285" height="12" rx="6" fill="#D8D8D8"></rect>
+
+    <!-- Timeline -->
+    <line x1="150" y1="315" x2="430" y2="315" stroke="#DDD6C8" stroke-width="4"></line>
+
+    <circle cx="150" cy="315" r="8" fill="#556B2F"></circle>
+
+    <circle cx="290" cy="315" r="8" fill="#C97C3D"></circle>
+
+    <circle cx="430" cy="315" r="8" fill="#556B2F"></circle>
+
+    <!-- Decorative Check -->
+    <circle cx="505" cy="65" r="24" fill="#556B2F"></circle>
+
+    <path d="M495 65
+             L503 73
+             L516 57" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+</svg>

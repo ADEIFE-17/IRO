@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420">
+
+    <!-- Background -->
+    <rect width="600" height="420" fill="#F7F5EF"></rect>
+
+    <!-- Form Card -->
+    <rect x="120" y="50" width="360" height="320" rx="18" fill="#FFFFFF" stroke="#DDD6C8" stroke-width="2"></rect>
+
+    <!-- Header -->
+    <rect x="150" y="80" width="180" height="18" rx="9" fill="#556B2F"></rect>
+
+    <!-- Input Fields -->
+    <rect x="150" y="120" width="300" height="18" rx="6" fill="#ECE7DB"></rect>
+
+    <rect x="150" y="155" width="300" height="18" rx="6" fill="#ECE7DB"></rect>
+
+    <rect x="150" y="190" width="300" height="18" rx="6" fill="#ECE7DB"></rect>
+
+    <!-- Description Box -->
+    <rect x="150" y="225" width="300" height="70" rx="8" fill="#ECE7DB"></rect>
+
+    <!-- Submit Button -->
+    <rect x="150" y="315" width="140" height="40" rx="8" fill="#556B2F"></rect>
+
+    <text x="220" y="340" text-anchor="middle" font-size="16" font-family="Arial" fill="#FFFFFF">
+        Submit
+    </text>
+
+    <!-- Notification Bubble -->
+    <circle cx="495" cy="85" r="28" fill="#C97C3D"></circle>
+
+    <text x="495" y="92" text-anchor="middle" font-size="24" font-family="Arial" fill="#FFFFFF">
+        !
+    </text>
+
+</svg>

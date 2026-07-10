@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+
+    <rect x="10" y="10" width="100" height="100" rx="18" fill="#556B2F"></rect>
+
+    <circle cx="60" cy="42" r="14" fill="#F7F5EF"></circle>
+
+    <rect x="36" y="60" width="48" height="24" rx="12" fill="#F7F5EF"></rect>
+
+    <circle cx="88" cy="30" r="12" fill="#C97C3D"></circle>
+
+    <text x="88" y="35" text-anchor="middle" font-size="12" font-family="Arial" fill="white">
+        !
+    </text>
+
+</svg>

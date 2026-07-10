@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420">
+
+    <!-- Background -->
+    <rect width="600" height="420" fill="#F7F5EF"></rect>
+
+    <!-- Connecting Lines -->
+    <line x1="300" y1="180" x2="170" y2="280" stroke="#556B2F" stroke-width="3"></line>
+
+    <line x1="300" y1="180" x2="430" y2="280" stroke="#556B2F" stroke-width="3"></line>
+
+    <line x1="170" y1="280" x2="430" y2="280" stroke="#C97C3D" stroke-width="3" stroke-dasharray="8 6"></line>
+
+    <!-- Authority -->
+    <circle cx="300" cy="110" r="36" fill="#556B2F"></circle>
+
+    <circle cx="300" cy="100" r="10" fill="#F7F5EF"></circle>
+
+    <path d="M282 128
+             C282 115 318 115 318 128" fill="#F7F5EF"></path>
+
+    <rect x="245" y="155" width="110" height="50" rx="10" fill="#FFFFFF" stroke="#DDD6C8"></rect>
+
+    <text x="300" y="185" text-anchor="middle" font-family="Arial" font-size="14" fill="#2E2E2E">
+        Authority
+    </text>
+
+    <!-- Student -->
+    <circle cx="170" cy="280" r="32" fill="#C97C3D"></circle>
+
+    <circle cx="170" cy="271" r="9" fill="#FFFFFF"></circle>
+
+    <path d="M154 296
+             C154 285 186 285 186 296" fill="#FFFFFF"></path>
+
+    <rect x="120" y="325" width="100" height="42" rx="10" fill="#FFFFFF" stroke="#DDD6C8"></rect>
+
+    <text x="170" y="350" text-anchor="middle" font-family="Arial" font-size="14" fill="#2E2E2E">
+        Students
+    </text>
+
+    <!-- Community -->
+    <circle cx="430" cy="280" r="32" fill="#556B2F"></circle>
+
+    <circle cx="430" cy="271" r="9" fill="#FFFFFF"></circle>
+
+    <path d="M414 296
+             C414 285 446 285 446 296" fill="#FFFFFF"></path>
+
+    <rect x="370" y="325" width="120" height="42" rx="10" fill="#FFFFFF" stroke="#DDD6C8"></rect>
+
+    <text x="430" y="350" text-anchor="middle" font-family="Arial" font-size="14" fill="#2E2E2E">
+        Community
+    </text>
+
+    <!-- Center Hub -->
+    <circle cx="300" cy="220" r="18" fill="#C97C3D"></circle>
+
+    <text x="300" y="225" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">
+        IRO
+    </text>
+
+</svg>
