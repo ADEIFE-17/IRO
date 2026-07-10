@@ -6,7 +6,7 @@ IRO (Issues Reporting Outlet) is a mini web-based reporting system developed as 
 
 The platform enables users to submit complaints, receive a unique Complaint ID and track the progress of submitted reports.
 
-
+---
 
 ## Features
 
@@ -19,7 +19,7 @@ The platform enables users to submit complaints, receive a unique Complaint ID a
 - Mobile-friendly navigation
 - Frequently Asked Questions section
 
-
+---
 
 ## Technologies Used
 
@@ -28,11 +28,11 @@ The platform enables users to submit complaints, receive a unique Complaint ID a
 - JavaScript (Vanilla)
 - SVG Graphics
 
-
+---
 
 ## Project Structure
 
-
+```
 IRO/
 │
 ├── index.html
@@ -58,9 +58,9 @@ IRO/
 │   └── usecase.drawio
 │
 └── README.md
+```
 
-
-
+---
 
 ## How to Run
 
@@ -72,7 +72,7 @@ IRO/
 6. Copy the generated Complaint ID.
 7. Use the Track Report page to retrieve the report.
 
-
+---
 
 ## Notes
 
@@ -80,7 +80,7 @@ This project is a front-end prototype developed for academic purposes.
 
 Report information is stored using the browser's Local Storage. No server-side database is included.
 
-
+---
 
 ## Developed By
 
